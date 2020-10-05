@@ -1,0 +1,4 @@
+<div class="todo-list-row-container" [ngClass]="{'todo-complete':todo.isComplete}" (click)=viewTodo()>
+  <div class="complete-marker" (click)=completeTodo($event) title="Is Complete"></div>
+  <span class="todo-title">{{todo.title}}</span>
+</div>

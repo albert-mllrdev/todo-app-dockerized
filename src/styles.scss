@@ -1,0 +1,44 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+
+  button {
+    cursor: pointer;
+    background-color: #efefef;
+    border: none;
+    color: black;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    min-width: 90px;
+    border-radius: 10px;
+    outline: none;
+
+    &:hover {
+      font-weight: bold;
+    }
+
+    &[disabled] {
+      color: lightgrey;
+      cursor: default;
+
+      &:hover {
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
