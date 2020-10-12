@@ -1,0 +1,9 @@
+version: '3'
+services:
+  angular:
+    build: .
+    ports:
+      - '4210:80'
+    # command: "npm start"
+    # ports:
+    #   - "4210:4200"
